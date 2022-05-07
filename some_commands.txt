@@ -1,0 +1,26 @@
+``` bash reatart nginx for server
+sudo systemctl restart nginx 
+
+``` nginx tazeden start bermek ucin onki ishlap duran nginx tazeden bashladyar.
+sudo /usr/sbin/nginx -s reload
+
+``` nginx serveri bashlatmak ucin
+sudo systemctl start nginx
+
+``` nginx serveri saklamak ucin
+sudo systemctl stop nginx
+
+
+
+
+
+```appache serveri bashlatmak ucin
+ /opt/lampp/lampp start
+
+```appache serveri saklamak ucin
+ /opt/lampp/lampp start
+
+```restart - Stops and starts XAMPP.
+
+``` show this link
+https://www.drupal.org/docs/develop/local-server-setup/linux-development-environments/xampp-for-linux#:~:text=To%20start%20XAMPP%20simply%20call,Starting%20XAMPP%20for%20Linux%201.5.

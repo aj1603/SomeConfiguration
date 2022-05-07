@@ -1,0 +1,31 @@
+https://randomnerdtutorials.com/projects-esp32-cam/ (this link haves many project arduino,  ESP 8266 and EPS32 cam)
+
+
+http://arduino.esp8266.com/stable/package_esp8266com_index.json            (for ESP8266 board)
+https://dl.espressif.com/dl/package_esp32_index.json                       (for ESP32 camera board)
+https://raw.githubusercontent.com/CONTROLLINO-PLC/CONTROLLINO_Library/master/Boards/package_ControllinoHardware_index.json    (for CONTROLLINO BOARD)
+
+Note: if you already have the ESP8266 boards URL, you can separate the URLs with a comma as follows: 
+https://dl.espressif.com/dl/package_esp32_index.json, http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+Everything are work.
+
+
+////////////////////////////////////
+Linux Programs install:::::::::
+
+DBeaver install::::::
+sudo rm /etc/apt/preferences.d/nosnap.pref
+sudo apt update
+///
+sudo apt update
+sudo apt install snapd
+///
+sudo snap install dbeaver-ce
+
+////////////////////////////////////
+
+
+
+//////////////////////////////////////
+
