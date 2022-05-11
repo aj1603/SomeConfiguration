@@ -12,6 +12,7 @@ sudo systemctl stop nginx
 
 
 
+``` Ikisi ucinem sudo su hokman
 
 
 ```appache serveri bashlatmak ucin
@@ -24,3 +25,25 @@ sudo systemctl stop nginx
 
 ``` show this link
 https://www.drupal.org/docs/develop/local-server-setup/linux-development-environments/xampp-for-linux#:~:text=To%20start%20XAMPP%20simply%20call,Starting%20XAMPP%20for%20Linux%201.5.
+
+``` Delete all file for program
+sudo apt purge mysql
+
+
+``` install PostgreSQL db
+https://setiwik.ru/kak-ustanovit-postgresql-s-pgadmin4-na-linux-mint-20/    link for install
+
+1.   sudo apt update -y
+2.   sudo apt install postgresql postgresql-contrib
+3.   sudo systemctl status postgresql            yagdayyny bilmek ucin
+4.   sudo systemctl start postgresql             bashlatmak ucin
+5.   sudo systemctl stop postgresql              saklamak ucin
+6.   sudo -i -u postgres                         postgresql in icine giryar
+7.   psql                                        in icinde
+8.   \ q                                         in icinden cykmak ucin 
+9.   exit                                        postgrql den cykmak ucin
+10.  sudo pg_isready                             connection nahili yagdaydafygyny bilmek ucin  
+11.  sudo apt libgmp3-dev gurmak-zerur libssl-dev gurmak          pgAdmin gurmak ucin commanda
+12.  sudo apt python3-virtualenv python3-dev libpq-dev gurmak     egere virtualenvirment gurulmady bolsa gutmalyshu  commanda yerine yetiryar
+13.  mkdir pgadmin4 && cd pgadmin4               file doretmali
+14.  virtualenv pgadmin4env
