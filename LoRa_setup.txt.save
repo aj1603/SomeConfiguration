@@ -1,0 +1,19 @@
+1. https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.5/package_heltec_esp32_index.json   Board link for Heltec LoRaWan
+2. Boards Manager  Heltec ESP32 yazmaly.
+3. sudo usermod -a -G dialout $USER && \
+sudo apt-get install git && \
+wget https://bootstrap.pypa.io/get-pip.py && \
+sudo python get-pip.py && \
+sudo pip install pyserial && \
+mkdir -p ~/Arduino/hardware && \
+cd ~/Arduino/hardware && \
+git clone https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series.git heltec && \
+cd heltec/esp32 && \
+git submodule update --init --recursive && \
+cd tools && \
+python get.py && \
+cd ~/Arduino/hardware/heltec/esp8266 && \
+git submodule update --init --recursive && \
+cd tools && \
+python get.py
+````` For Lora install my machine.......

@@ -10,14 +10,14 @@ git push -u origin main
 ```
 Git hub update command
 ``` bash
-git remote add origin https://github.com/Electronic12/dgfdhgsr.git
+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git remote add origin https://github.com/Electronic12/dgfdhgsr.git
 git branch -M main
 git push -u origin main
 ```
 
 Github token: it may be change
 ```bash
-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 
+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 
 
 ```
 
@@ -86,7 +86,3 @@ git init
 git add .
 git commit -am 'something'
 git remote add origin https://github.com/Electronic12/flasker_sec.git
-
-
-``` Less app secure links shu linkde email ugratmak ucin accept etmalei
-https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4MTTTWNOI6wpi_m46JPswJPVTANND70M6ntPfWNLHQ9AnY97E8fjBzIChiSD_N2JLu78Mb7glpdCajhZBn8ovCNvFwy8A

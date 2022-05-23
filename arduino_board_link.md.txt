@@ -29,3 +29,7 @@ sudo snap install dbeaver-ce
 
 //////////////////////////////////////
 
+Arduino installl on linux mint command..
+install.sh
+sudo ./install.sh                  this command install arduino on linux
+./arduino-linux-setup.sh $USER

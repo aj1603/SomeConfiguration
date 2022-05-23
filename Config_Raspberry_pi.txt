@@ -1,0 +1,20 @@
+1. Operation install NOOBs or raspbian.
+
+```
+2. How to test Reaspberry pi camera test works or not work.
+Enable camera and some needs things.
+raspistill -o <name>.jpg
+vcgencmd get_camera                for how many camera used command
+```
+3. Enable camera port from config
+sudo raspi-config
+Select Interfacing Options and anable camera
+
+4.Check this link. There are more information about raspberry pi 
+https://raspberrytips.com/troubleshooting-camera-module/
+https://school.raspberrytips.com/master-your-raspberry-pi?coupon=EB21LK&utm_source=raspberrytips&utm_medium=web&utm_campaign=endblock
+
+
+5.Object dection on raspberry pi with opencv and tensorflow
+https://www.digikey.com/en/maker/projects/how-to-perform-object-detection-with-tensorflow-lite-on-raspberry-pi/b929e1519c7c43d5b2c6f89984883588  for tutorial
+
