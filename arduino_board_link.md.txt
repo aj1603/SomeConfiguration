@@ -1,7 +1,8 @@
 https://randomnerdtutorials.com/projects-esp32-cam/ (this link haves many project arduino,  ESP 8266 and EPS32 cam)
 
 
-http://arduino.esp8266.com/stable/package_esp8266com_index.json            (for ESP8266 board)
+https://arduino.esp8266.com/stable/package_esp8266com_index.json            (for ESP8266 board)
+https://dl.google.com/android/repository/iasdk-1.9.0-1566514721.zip         (for ESP8266 boord)  without proxy
 https://dl.espressif.com/dl/package_esp32_index.json                       (for ESP32 camera board)
 https://raw.githubusercontent.com/CONTROLLINO-PLC/CONTROLLINO_Library/master/Boards/package_ControllinoHardware_index.json    (for CONTROLLINO BOARD)
 
