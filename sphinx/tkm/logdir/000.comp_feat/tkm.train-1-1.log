@@ -1,0 +1,334 @@
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-alpha			0.97		9.700000e-001
+-argfile				
+-blocksize		2048		2048
+-build_outdirs		yes		yes
+-c					C:/sphinx/tkm/etc/tkm_train.fileids
+-cep2spec		no		no
+-di					C:/sphinx/tkm/wav
+-dither			no		no
+-do					C:/sphinx/tkm/feat
+-doublebw		no		no
+-ei					wav
+-eo					mfc
+-example		no		no
+-frate			100		100
+-help			no		no
+-i					
+-input_endian		little		little
+-lifter			0		22
+-logspec		no		no
+-lowerf			133.33334	1.300000e+002
+-mach_endian		little		little
+-mswav			no		yes
+-ncep			13		13
+-nchans			1		1
+-nfft			512		512
+-nfilt			40		25
+-nist			no		no
+-npart			0		1
+-nskip			0		0
+-o					
+-ofmt			sphinx		sphinx
+-part			0		1
+-raw			no		no
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-runlen			-1		-1
+-samprate		16000		1.600000e+004
+-seed			-1		-1
+-smoothspec		no		no
+-spec2cep		no		no
+-sph2pipe		no		no
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+003
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		3.0		3.000000e+000
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-whichchan		0		0
+-wlen			0.025625	2.562500e-002
+
+INFO: sphinx_fe.c(971): Processing all remaining utterances at position 0
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_acyl_1.wav to C:/sphinx/tkm/feat/Azat/A_acyl_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_acyl_2.wav to C:/sphinx/tkm/feat/Azat/A_acyl_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_acyl_3.wav to C:/sphinx/tkm/feat/Azat/A_acyl_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_acyl_4.wav to C:/sphinx/tkm/feat/Azat/A_acyl_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_acyl_5.wav to C:/sphinx/tkm/feat/Azat/A_acyl_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_akyllyoy_1.wav to C:/sphinx/tkm/feat/Azat/A_akyllyoy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_akyllyoy_2.wav to C:/sphinx/tkm/feat/Azat/A_akyllyoy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_akyllyoy_3.wav to C:/sphinx/tkm/feat/Azat/A_akyllyoy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_akyllyoy_4.wav to C:/sphinx/tkm/feat/Azat/A_akyllyoy_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_cyrany_1.wav to C:/sphinx/tkm/feat/Azat/A_cyrany_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_cyrany_2.wav to C:/sphinx/tkm/feat/Azat/A_cyrany_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_cyrany_3.wav to C:/sphinx/tkm/feat/Azat/A_cyrany_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_cyrany_4.wav to C:/sphinx/tkm/feat/Azat/A_cyrany_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_cyrany_5.wav to C:/sphinx/tkm/feat/Azat/A_cyrany_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_ocur_1.wav to C:/sphinx/tkm/feat/Azat/A_ocur_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_ocur_2.wav to C:/sphinx/tkm/feat/Azat/A_ocur_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_ocur_3.wav to C:/sphinx/tkm/feat/Azat/A_ocur_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_ocur_4.wav to C:/sphinx/tkm/feat/Azat/A_ocur_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_ocur_5.wav to C:/sphinx/tkm/feat/Azat/A_ocur_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_perde_1.wav to C:/sphinx/tkm/feat/Azat/A_perde_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_perde_2.wav to C:/sphinx/tkm/feat/Azat/A_perde_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_perde_3.wav to C:/sphinx/tkm/feat/Azat/A_perde_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_perde_4.wav to C:/sphinx/tkm/feat/Azat/A_perde_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_perde_5.wav to C:/sphinx/tkm/feat/Azat/A_perde_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_yak_1.wav to C:/sphinx/tkm/feat/Azat/A_yak_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_yak_2.wav to C:/sphinx/tkm/feat/Azat/A_yak_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_yak_3.wav to C:/sphinx/tkm/feat/Azat/A_yak_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_yak_4.wav to C:/sphinx/tkm/feat/Azat/A_yak_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_yak_5.wav to C:/sphinx/tkm/feat/Azat/A_yak_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_yapyl_1.wav to C:/sphinx/tkm/feat/Azat/A_yapyl_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_yapyl_2.wav to C:/sphinx/tkm/feat/Azat/A_yapyl_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_yapyl_3.wav to C:/sphinx/tkm/feat/Azat/A_yapyl_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_yapyl_4.wav to C:/sphinx/tkm/feat/Azat/A_yapyl_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Azat/A_yapyl_5.wav to C:/sphinx/tkm/feat/Azat/A_yapyl_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_acyl_1.wav to C:/sphinx/tkm/feat/Begli/B_acyl_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_acyl_2.wav to C:/sphinx/tkm/feat/Begli/B_acyl_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_acyl_3.wav to C:/sphinx/tkm/feat/Begli/B_acyl_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_acyl_4.wav to C:/sphinx/tkm/feat/Begli/B_acyl_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_akyllyoy_1.wav to C:/sphinx/tkm/feat/Begli/B_akyllyoy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_akyllyoy_2.wav to C:/sphinx/tkm/feat/Begli/B_akyllyoy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_akyllyoy_3.wav to C:/sphinx/tkm/feat/Begli/B_akyllyoy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_akyllyoy_4.wav to C:/sphinx/tkm/feat/Begli/B_akyllyoy_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_cyrany_1.wav to C:/sphinx/tkm/feat/Begli/B_cyrany_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_cyrany_2.wav to C:/sphinx/tkm/feat/Begli/B_cyrany_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_cyrany_3.wav to C:/sphinx/tkm/feat/Begli/B_cyrany_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_cyrany_4.wav to C:/sphinx/tkm/feat/Begli/B_cyrany_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_ocur_1.wav to C:/sphinx/tkm/feat/Begli/B_ocur_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_ocur_2.wav to C:/sphinx/tkm/feat/Begli/B_ocur_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_ocur_3.wav to C:/sphinx/tkm/feat/Begli/B_ocur_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_ocur_4.wav to C:/sphinx/tkm/feat/Begli/B_ocur_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_sowadyjy_1.wav to C:/sphinx/tkm/feat/Begli/B_sowadyjy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_sowadyjy_2.wav to C:/sphinx/tkm/feat/Begli/B_sowadyjy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_sowadyjy_3.wav to C:/sphinx/tkm/feat/Begli/B_sowadyjy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_yak_1.wav to C:/sphinx/tkm/feat/Begli/B_yak_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_yak_2.wav to C:/sphinx/tkm/feat/Begli/B_yak_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_yak_3.wav to C:/sphinx/tkm/feat/Begli/B_yak_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_yak_4.wav to C:/sphinx/tkm/feat/Begli/B_yak_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_yapyl_1.wav to C:/sphinx/tkm/feat/Begli/B_yapyl_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_yapyl_2.wav to C:/sphinx/tkm/feat/Begli/B_yapyl_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_yapyl_3.wav to C:/sphinx/tkm/feat/Begli/B_yapyl_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Begli/B_yapyl_4.wav to C:/sphinx/tkm/feat/Begli/B_yapyl_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_acc_1.wav to C:/sphinx/tkm/feat/Didar/D_acc_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_acc_2.wav to C:/sphinx/tkm/feat/Didar/D_acc_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_acc_3.wav to C:/sphinx/tkm/feat/Didar/D_acc_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_acc_4.wav to C:/sphinx/tkm/feat/Didar/D_acc_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_acyl_1.wav to C:/sphinx/tkm/feat/Didar/D_acyl_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_acyl_2.wav to C:/sphinx/tkm/feat/Didar/D_acyl_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_acyl_3.wav to C:/sphinx/tkm/feat/Didar/D_acyl_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_acyl_4.wav to C:/sphinx/tkm/feat/Didar/D_acyl_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_acyl_5.wav to C:/sphinx/tkm/feat/Didar/D_acyl_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_acyl_6.wav to C:/sphinx/tkm/feat/Didar/D_acyl_6.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_akyllyoy_1.wav to C:/sphinx/tkm/feat/Didar/D_akyllyoy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_akyllyoy_2.wav to C:/sphinx/tkm/feat/Didar/D_akyllyoy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_akyllyoy_3.wav to C:/sphinx/tkm/feat/Didar/D_akyllyoy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_akyllyoy_4.wav to C:/sphinx/tkm/feat/Didar/D_akyllyoy_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_cyrany_1.wav to C:/sphinx/tkm/feat/Didar/D_cyrany_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_cyrany_2.wav to C:/sphinx/tkm/feat/Didar/D_cyrany_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_cyrany_3.wav to C:/sphinx/tkm/feat/Didar/D_cyrany_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_gapyny_1.wav to C:/sphinx/tkm/feat/Didar/D_gapyny_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_gapyny_2.wav to C:/sphinx/tkm/feat/Didar/D_gapyny_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_gapyny_3.wav to C:/sphinx/tkm/feat/Didar/D_gapyny_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_gapyny_4.wav to C:/sphinx/tkm/feat/Didar/D_gapyny_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_gapyny_5.wav to C:/sphinx/tkm/feat/Didar/D_gapyny_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_gapyny_6.wav to C:/sphinx/tkm/feat/Didar/D_gapyny_6.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_gapyny_7.wav to C:/sphinx/tkm/feat/Didar/D_gapyny_7.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_gapyny_8.wav to C:/sphinx/tkm/feat/Didar/D_gapyny_8.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_ocur_1.wav to C:/sphinx/tkm/feat/Didar/D_ocur_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_ocur_2.wav to C:/sphinx/tkm/feat/Didar/D_ocur_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_ocur_3.wav to C:/sphinx/tkm/feat/Didar/D_ocur_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_perde_1.wav to C:/sphinx/tkm/feat/Didar/D_perde_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_perde_2.wav to C:/sphinx/tkm/feat/Didar/D_perde_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_perde_3.wav to C:/sphinx/tkm/feat/Didar/D_perde_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_perde_4.wav to C:/sphinx/tkm/feat/Didar/D_perde_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_perde_5.wav to C:/sphinx/tkm/feat/Didar/D_perde_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_perde_6.wav to C:/sphinx/tkm/feat/Didar/D_perde_6.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_perde_7.wav to C:/sphinx/tkm/feat/Didar/D_perde_7.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_perde_8.wav to C:/sphinx/tkm/feat/Didar/D_perde_8.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_sowadyjy_1.wav to C:/sphinx/tkm/feat/Didar/D_sowadyjy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_sowadyjy_2.wav to C:/sphinx/tkm/feat/Didar/D_sowadyjy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_sowadyjy_3.wav to C:/sphinx/tkm/feat/Didar/D_sowadyjy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_yak_1.wav to C:/sphinx/tkm/feat/Didar/D_yak_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_yak_2.wav to C:/sphinx/tkm/feat/Didar/D_yak_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_yak_3.wav to C:/sphinx/tkm/feat/Didar/D_yak_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_yapyl_1.wav to C:/sphinx/tkm/feat/Didar/D_yapyl_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_yapyl_2.wav to C:/sphinx/tkm/feat/Didar/D_yapyl_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_yapyl_3.wav to C:/sphinx/tkm/feat/Didar/D_yapyl_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_yapyl_4.wav to C:/sphinx/tkm/feat/Didar/D_yapyl_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_yapyl_5.wav to C:/sphinx/tkm/feat/Didar/D_yapyl_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Didar/D_yapyl_6.wav to C:/sphinx/tkm/feat/Didar/D_yapyl_6.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Eziz/E_gapyny_1.wav to C:/sphinx/tkm/feat/Eziz/E_gapyny_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Eziz/E_gapyny_2.wav to C:/sphinx/tkm/feat/Eziz/E_gapyny_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Eziz/E_gapyny_3.wav to C:/sphinx/tkm/feat/Eziz/E_gapyny_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/acyl1.wav to C:/sphinx/tkm/feat/Hangeldi/acyl1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/acyl2.wav to C:/sphinx/tkm/feat/Hangeldi/acyl2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/acyl3.wav to C:/sphinx/tkm/feat/Hangeldi/acyl3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/acyl4.wav to C:/sphinx/tkm/feat/Hangeldi/acyl4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/akyllyoy1.wav to C:/sphinx/tkm/feat/Hangeldi/akyllyoy1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/akyllyoy2.wav to C:/sphinx/tkm/feat/Hangeldi/akyllyoy2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/akyllyoy3.wav to C:/sphinx/tkm/feat/Hangeldi/akyllyoy3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/akyllyoy4.wav to C:/sphinx/tkm/feat/Hangeldi/akyllyoy4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/akyllyoy6.wav to C:/sphinx/tkm/feat/Hangeldi/akyllyoy6.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/cyrany1.wav to C:/sphinx/tkm/feat/Hangeldi/cyrany1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/cyrany2.wav to C:/sphinx/tkm/feat/Hangeldi/cyrany2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/cyrany3.wav to C:/sphinx/tkm/feat/Hangeldi/cyrany3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/cyrany4.wav to C:/sphinx/tkm/feat/Hangeldi/cyrany4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/H_perde_1.wav to C:/sphinx/tkm/feat/Hangeldi/H_perde_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/H_perde_2.wav to C:/sphinx/tkm/feat/Hangeldi/H_perde_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/H_perde_3.wav to C:/sphinx/tkm/feat/Hangeldi/H_perde_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/H_sowadyjy_1.wav to C:/sphinx/tkm/feat/Hangeldi/H_sowadyjy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/H_sowadyjy_2.wav to C:/sphinx/tkm/feat/Hangeldi/H_sowadyjy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/H_sowadyjy_3.wav to C:/sphinx/tkm/feat/Hangeldi/H_sowadyjy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/ocur1.wav to C:/sphinx/tkm/feat/Hangeldi/ocur1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/ocur2.wav to C:/sphinx/tkm/feat/Hangeldi/ocur2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/ocur3.wav to C:/sphinx/tkm/feat/Hangeldi/ocur3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/ocur4.wav to C:/sphinx/tkm/feat/Hangeldi/ocur4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/yak1.wav to C:/sphinx/tkm/feat/Hangeldi/yak1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/yak2.wav to C:/sphinx/tkm/feat/Hangeldi/yak2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/yak3.wav to C:/sphinx/tkm/feat/Hangeldi/yak3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/yak4.wav to C:/sphinx/tkm/feat/Hangeldi/yak4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/yapyl4.wav to C:/sphinx/tkm/feat/Hangeldi/yapyl4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/yapyl5.wav to C:/sphinx/tkm/feat/Hangeldi/yapyl5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Hangeldi/yapyl6.wav to C:/sphinx/tkm/feat/Hangeldi/yapyl6.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_acyl_1.wav to C:/sphinx/tkm/feat/Jora/J_acyl_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_acyl_2.wav to C:/sphinx/tkm/feat/Jora/J_acyl_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_acyl_3.wav to C:/sphinx/tkm/feat/Jora/J_acyl_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_acyl_4.wav to C:/sphinx/tkm/feat/Jora/J_acyl_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_akyllyoy_1.wav to C:/sphinx/tkm/feat/Jora/J_akyllyoy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_akyllyoy_2.wav to C:/sphinx/tkm/feat/Jora/J_akyllyoy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_akyllyoy_3.wav to C:/sphinx/tkm/feat/Jora/J_akyllyoy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_akyllyoy_4.wav to C:/sphinx/tkm/feat/Jora/J_akyllyoy_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_akyllyoy_5.wav to C:/sphinx/tkm/feat/Jora/J_akyllyoy_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_cyrany_1.wav to C:/sphinx/tkm/feat/Jora/J_cyrany_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_cyrany_2.wav to C:/sphinx/tkm/feat/Jora/J_cyrany_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_cyrany_3.wav to C:/sphinx/tkm/feat/Jora/J_cyrany_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_cyrany_4.wav to C:/sphinx/tkm/feat/Jora/J_cyrany_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_ocur_1.wav to C:/sphinx/tkm/feat/Jora/J_ocur_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_ocur_2.wav to C:/sphinx/tkm/feat/Jora/J_ocur_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_ocur_3.wav to C:/sphinx/tkm/feat/Jora/J_ocur_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_ocur_4.wav to C:/sphinx/tkm/feat/Jora/J_ocur_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_perde_1.wav to C:/sphinx/tkm/feat/Jora/J_perde_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_perde_2.wav to C:/sphinx/tkm/feat/Jora/J_perde_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_perde_3.wav to C:/sphinx/tkm/feat/Jora/J_perde_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_sowadyjy_1.wav to C:/sphinx/tkm/feat/Jora/J_sowadyjy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_sowadyjy_2.wav to C:/sphinx/tkm/feat/Jora/J_sowadyjy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_sowadyjy_3.wav to C:/sphinx/tkm/feat/Jora/J_sowadyjy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_yak_1.wav to C:/sphinx/tkm/feat/Jora/J_yak_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_yak_2.wav to C:/sphinx/tkm/feat/Jora/J_yak_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_yak_3.wav to C:/sphinx/tkm/feat/Jora/J_yak_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_yak_4.wav to C:/sphinx/tkm/feat/Jora/J_yak_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_yapyl_1.wav to C:/sphinx/tkm/feat/Jora/J_yapyl_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_yapyl_2.wav to C:/sphinx/tkm/feat/Jora/J_yapyl_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_yapyl_3.wav to C:/sphinx/tkm/feat/Jora/J_yapyl_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Jora/J_yapyl_4.wav to C:/sphinx/tkm/feat/Jora/J_yapyl_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_acc_1.wav to C:/sphinx/tkm/feat/Mekan/M_acc_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_acc_2.wav to C:/sphinx/tkm/feat/Mekan/M_acc_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_acc_3.wav to C:/sphinx/tkm/feat/Mekan/M_acc_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_acc_4.wav to C:/sphinx/tkm/feat/Mekan/M_acc_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_acyl_1.wav to C:/sphinx/tkm/feat/Mekan/M_acyl_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_acyl_2.wav to C:/sphinx/tkm/feat/Mekan/M_acyl_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_acyl_3.wav to C:/sphinx/tkm/feat/Mekan/M_acyl_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_acyl_4.wav to C:/sphinx/tkm/feat/Mekan/M_acyl_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_akyllyoy_1.wav to C:/sphinx/tkm/feat/Mekan/M_akyllyoy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_akyllyoy_2.wav to C:/sphinx/tkm/feat/Mekan/M_akyllyoy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_akyllyoy_3.wav to C:/sphinx/tkm/feat/Mekan/M_akyllyoy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_cyrany_1.wav to C:/sphinx/tkm/feat/Mekan/M_cyrany_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_cyrany_2.wav to C:/sphinx/tkm/feat/Mekan/M_cyrany_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_cyrany_3.wav to C:/sphinx/tkm/feat/Mekan/M_cyrany_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_cyrany_4.wav to C:/sphinx/tkm/feat/Mekan/M_cyrany_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_gapyny_1.wav to C:/sphinx/tkm/feat/Mekan/M_gapyny_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_gapyny_2.wav to C:/sphinx/tkm/feat/Mekan/M_gapyny_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_gapyny_3.wav to C:/sphinx/tkm/feat/Mekan/M_gapyny_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_gapyny_4.wav to C:/sphinx/tkm/feat/Mekan/M_gapyny_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_ocur_1.wav to C:/sphinx/tkm/feat/Mekan/M_ocur_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_ocur_2.wav to C:/sphinx/tkm/feat/Mekan/M_ocur_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_ocur_3.wav to C:/sphinx/tkm/feat/Mekan/M_ocur_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_ocur_4.wav to C:/sphinx/tkm/feat/Mekan/M_ocur_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_perde_1.wav to C:/sphinx/tkm/feat/Mekan/M_perde_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_perde_2.wav to C:/sphinx/tkm/feat/Mekan/M_perde_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_perde_3.wav to C:/sphinx/tkm/feat/Mekan/M_perde_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_sowadyjy_1.wav to C:/sphinx/tkm/feat/Mekan/M_sowadyjy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_sowadyjy_2.wav to C:/sphinx/tkm/feat/Mekan/M_sowadyjy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_sowadyjy_3.wav to C:/sphinx/tkm/feat/Mekan/M_sowadyjy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_yak_1.wav to C:/sphinx/tkm/feat/Mekan/M_yak_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_yak_2.wav to C:/sphinx/tkm/feat/Mekan/M_yak_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Mekan/M_yak_3.wav to C:/sphinx/tkm/feat/Mekan/M_yak_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/acyl_1.wav to C:/sphinx/tkm/feat/Nurberdi/acyl_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/acyl_2.wav to C:/sphinx/tkm/feat/Nurberdi/acyl_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/acyl_3.wav to C:/sphinx/tkm/feat/Nurberdi/acyl_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/acyl_4.wav to C:/sphinx/tkm/feat/Nurberdi/acyl_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/akyllyoy_1.wav to C:/sphinx/tkm/feat/Nurberdi/akyllyoy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/akyllyoy_2.wav to C:/sphinx/tkm/feat/Nurberdi/akyllyoy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/akyllyoy_3.wav to C:/sphinx/tkm/feat/Nurberdi/akyllyoy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/akyllyoy_4.wav to C:/sphinx/tkm/feat/Nurberdi/akyllyoy_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/akyllyoy_5.wav to C:/sphinx/tkm/feat/Nurberdi/akyllyoy_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/akyllyoy_6.wav to C:/sphinx/tkm/feat/Nurberdi/akyllyoy_6.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/cyrany_1.wav to C:/sphinx/tkm/feat/Nurberdi/cyrany_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/cyrany_2.wav to C:/sphinx/tkm/feat/Nurberdi/cyrany_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/cyrany_3.wav to C:/sphinx/tkm/feat/Nurberdi/cyrany_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/cyrany_4.wav to C:/sphinx/tkm/feat/Nurberdi/cyrany_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/gapyny_2.wav to C:/sphinx/tkm/feat/Nurberdi/gapyny_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/gapyny_3.wav to C:/sphinx/tkm/feat/Nurberdi/gapyny_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/gapyny_5.wav to C:/sphinx/tkm/feat/Nurberdi/gapyny_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/ocur_1.wav to C:/sphinx/tkm/feat/Nurberdi/ocur_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/ocur_2.wav to C:/sphinx/tkm/feat/Nurberdi/ocur_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/ocur_3.wav to C:/sphinx/tkm/feat/Nurberdi/ocur_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/ocur_4.wav to C:/sphinx/tkm/feat/Nurberdi/ocur_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/perde_1.wav to C:/sphinx/tkm/feat/Nurberdi/perde_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/perde_2.wav to C:/sphinx/tkm/feat/Nurberdi/perde_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/perde_3.wav to C:/sphinx/tkm/feat/Nurberdi/perde_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/perde_4.wav to C:/sphinx/tkm/feat/Nurberdi/perde_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/perde_5.wav to C:/sphinx/tkm/feat/Nurberdi/perde_5.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/perde_6.wav to C:/sphinx/tkm/feat/Nurberdi/perde_6.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/sowadyjy_1.wav to C:/sphinx/tkm/feat/Nurberdi/sowadyjy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/sowadyjy_2.wav to C:/sphinx/tkm/feat/Nurberdi/sowadyjy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/sowadyjy_3.wav to C:/sphinx/tkm/feat/Nurberdi/sowadyjy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/yak_1.wav to C:/sphinx/tkm/feat/Nurberdi/yak_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/yak_2.wav to C:/sphinx/tkm/feat/Nurberdi/yak_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/yak_3.wav to C:/sphinx/tkm/feat/Nurberdi/yak_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/yak_4.wav to C:/sphinx/tkm/feat/Nurberdi/yak_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/yapyl_1.wav to C:/sphinx/tkm/feat/Nurberdi/yapyl_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/yapyl_2.wav to C:/sphinx/tkm/feat/Nurberdi/yapyl_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/yapyl_3.wav to C:/sphinx/tkm/feat/Nurberdi/yapyl_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Nurberdi/yapyl_4.wav to C:/sphinx/tkm/feat/Nurberdi/yapyl_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_acyl_1.wav to C:/sphinx/tkm/feat/Pena/P_acyl_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_acyl_2.wav to C:/sphinx/tkm/feat/Pena/P_acyl_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_acyl_3.wav to C:/sphinx/tkm/feat/Pena/P_acyl_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_acyl_4.wav to C:/sphinx/tkm/feat/Pena/P_acyl_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_akyllyoy_1.wav to C:/sphinx/tkm/feat/Pena/P_akyllyoy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_akyllyoy_2.wav to C:/sphinx/tkm/feat/Pena/P_akyllyoy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_akyllyoy_3.wav to C:/sphinx/tkm/feat/Pena/P_akyllyoy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_akyllyoy_4.wav to C:/sphinx/tkm/feat/Pena/P_akyllyoy_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_cyrany_1.wav to C:/sphinx/tkm/feat/Pena/P_cyrany_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_cyrany_2.wav to C:/sphinx/tkm/feat/Pena/P_cyrany_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_cyrany_3.wav to C:/sphinx/tkm/feat/Pena/P_cyrany_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_cyrany_4.wav to C:/sphinx/tkm/feat/Pena/P_cyrany_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_ocur_1.wav to C:/sphinx/tkm/feat/Pena/P_ocur_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_ocur_2.wav to C:/sphinx/tkm/feat/Pena/P_ocur_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_ocur_3.wav to C:/sphinx/tkm/feat/Pena/P_ocur_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_ocur_4.wav to C:/sphinx/tkm/feat/Pena/P_ocur_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_perde_1.wav to C:/sphinx/tkm/feat/Pena/P_perde_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_perde_2.wav to C:/sphinx/tkm/feat/Pena/P_perde_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_perde_3.wav to C:/sphinx/tkm/feat/Pena/P_perde_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_perde_4.wav to C:/sphinx/tkm/feat/Pena/P_perde_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_sowadyjy_1.wav to C:/sphinx/tkm/feat/Pena/P_sowadyjy_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_sowadyjy_2.wav to C:/sphinx/tkm/feat/Pena/P_sowadyjy_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_sowadyjy_3.wav to C:/sphinx/tkm/feat/Pena/P_sowadyjy_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_sowadyjy_4.wav to C:/sphinx/tkm/feat/Pena/P_sowadyjy_4.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_yak_1.wav to C:/sphinx/tkm/feat/Pena/P_yak_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_yak_2.wav to C:/sphinx/tkm/feat/Pena/P_yak_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_yak_3.wav to C:/sphinx/tkm/feat/Pena/P_yak_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_yapyl_1.wav to C:/sphinx/tkm/feat/Pena/P_yapyl_1.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_yapyl_2.wav to C:/sphinx/tkm/feat/Pena/P_yapyl_2.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_yapyl_3.wav to C:/sphinx/tkm/feat/Pena/P_yapyl_3.mfc
+INFO: sphinx_fe.c(791): Converting C:/sphinx/tkm/wav/Pena/P_yapyl_4.wav to C:/sphinx/tkm/feat/Pena/P_yapyl_4.mfc
+Tue Nov 16 20:13:12 2021

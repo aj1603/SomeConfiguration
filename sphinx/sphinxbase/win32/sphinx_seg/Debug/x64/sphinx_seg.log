@@ -1,0 +1,17 @@
+﻿Build started 13.01.2020 19:07:05.
+     1>Project "C:\sphinx\sphinxbase\win32\sphinx_seg\sphinx_seg.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I../../include /I../../include/win32 /I../../src/libsphinxbase/fe /ZI /nologo /W3 /WX- /Od /D _CRT_SECURE_NO_WARNINGS /D SPHINX_DLL /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\x64\\" /Fd"Debug\x64\vc110.pdb" /Gd /TC /errorReport:prompt ..\..\src\sphinx_adtools\cont_seg.c
+     1>cl : Command line warning D9038: /ZI is not supported on this platform; enabling /Zi instead
+     1>cl : Command line warning D9007: '/Gm' requires '/Zi'; option ignored
+         cont_seg.c
+     1>..\..\src\sphinx_adtools\cont_seg.c(125): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\sphinx\sphinxbase\\bin\Debug\x64\sphinx_seg.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\sphinx\sphinxbase\\bin\Debug\x64\sphinx_seg.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\sphinx\sphinxbase\\bin\Debug\x64\sphinx_seg.lib" /MACHINE:X64 /SAFESEH:NO Debug\x64\cont_seg.obj
+         C:\sphinx\sphinxbase\bin\Debug\x64\sphinxbase.lib
+         sphinx_seg.vcxproj -> C:\sphinx\sphinxbase\\bin\Debug\x64\sphinx_seg.exe
+     1>Done Building Project "C:\sphinx\sphinxbase\win32\sphinx_seg\sphinx_seg.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.98

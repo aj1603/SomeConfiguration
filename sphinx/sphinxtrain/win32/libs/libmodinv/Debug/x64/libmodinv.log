@@ -1,0 +1,29 @@
+﻿Build started 13.01.2020 19:18:58.
+     1>Project "C:\sphinx\sphinxtrain\win32\libs\libmodinv\libmodinv.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\include /I..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\sphinxbase\include /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D SPHINX_DLL /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\x64/" /Fd".\Debug\x64/vc110.pdb" /Gd /TC /errorReport:prompt ..\..\..\src\libs\libmodinv\gauden.c ..\..\..\src\libs\libmodinv\mod_inv.c
+     1>cl : Command line warning D9038: /ZI is not supported on this platform; enabling /Zi instead
+     1>cl : Command line warning D9007: '/Gm' requires '/Zi'; option ignored
+         gauden.c
+     1>..\..\..\src\libs\libmodinv\gauden.c(72): warning C4305: 'initializing' : truncation from 'double' to 'float32'
+     1>..\..\..\src\libs\libmodinv\gauden.c(338): warning C4244: '+=' : conversion from 'double' to 'float32', possible loss of data
+     1>..\..\..\src\libs\libmodinv\gauden.c(341): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>..\..\..\src\libs\libmodinv\gauden.c(343): warning C4244: 'return' : conversion from 'double' to 'float32', possible loss of data
+     1>..\..\..\src\libs\libmodinv\gauden.c(360): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>..\..\..\src\libs\libmodinv\gauden.c(362): warning C4244: 'return' : conversion from 'double' to 'float32', possible loss of data
+     1>..\..\..\src\libs\libmodinv\gauden.c(444): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libs\libmodinv\gauden.c(475): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libs\libmodinv\gauden.c(1841): warning C4244: 'initializing' : conversion from 'double' to 'float32', possible loss of data
+     1>..\..\..\src\libs\libmodinv\gauden.c(1910): warning C4244: '=' : conversion from 'uint32' to 'float32', possible loss of data
+     1>..\..\..\src\libs\libmodinv\gauden.c(2047): warning C4244: '=' : conversion from 'float64' to 'float32', possible loss of data
+         mod_inv.c
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:".\..\..\..\lib\Debug\x64\libmodinv.lib" sphinxbase.lib /LIBPATH:..\..\..\..\sphinxbase\bin\Debug\x64 /NOLOGO /MACHINE:X64 .\Debug\x64/gauden.obj
+         .\Debug\x64/mod_inv.obj
+         libmodinv.vcxproj -> C:\sphinx\sphinxtrain\win32\libs\libmodinv\.\..\..\..\lib\Debug\x64\libmodinv.lib
+     1>Done Building Project "C:\sphinx\sphinxtrain\win32\libs\libmodinv\libmodinv.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.61

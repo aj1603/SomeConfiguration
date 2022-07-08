@@ -1,0 +1,186 @@
+﻿Build started 13.01.2020 19:06:11.
+     1>Project "C:\sphinx\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I../../include/win32 /I../../include /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _USRDLL /D SPHINX_DLL /D SPHINXBASE_EXPORTS /D HAVE_CONFIG_H /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\x64/" /Fd".\Debug\x64/vc110.pdb" /Gd /TC /errorReport:prompt ..\..\src\libsphinxad\ad_win32.c ..\..\src\libsphinxbase\feat\agc.c ..\..\src\libsphinxbase\feat\cmn.c ..\..\src\libsphinxbase\feat\cmn_live.c ..\..\src\libsphinxbase\feat\feat.c ..\..\src\libsphinxbase\feat\lda.c ..\..\src\libsphinxbase\fe\fe_interface.c ..\..\src\libsphinxbase\fe\fe_noise.c ..\..\src\libsphinxbase\fe\fe_prespch_buf.c ..\..\src\libsphinxbase\fe\fe_sigproc.c ..\..\src\libsphinxbase\fe\fe_warp_affine.c ..\..\src\libsphinxbase\fe\fe_warp.c ..\..\src\libsphinxbase\fe\fe_warp_inverse_linear.c ..\..\src\libsphinxbase\fe\fe_warp_piecewise_linear.c ..\..\src\libsphinxbase\fe\fixlog.c ..\..\src\libsphinxbase\fe\yin.c ..\..\src\libsphinxbase\lm\fsg_model.c ..\..\src\libsphinxbase\lm\jsgf.c ..\..\src\libsphinxbase\lm\jsgf_parser.c ..\..\src\libsphinxbase\lm\jsgf_scanner.c ..\..\src\libsphinxbase\lm\ngrams_raw.c ..\..\src\libsphinxbase\lm\lm_trie.c ..\..\src\libsphinxbase\lm\lm_trie_quant.c ..\..\src\libsphinxbase\lm\ngram_model.c ..\..\src\libsphinxbase\lm\ngram_model_set.c ..\..\src\libsphinxbase\lm\ngram_model_trie.c ..\..\src\libsphinxbase\util\bio.c ..\..\src\libsphinxbase\util\bitarr.c ..\..\src\libsphinxbase\util\bitvec.c ..\..\src\libsphinxbase\util\blas_lite.c ..\..\src\libsphinxbase\util\case.c ..\..\src\libsphinxbase\util\ckd_alloc.c ..\..\src\libsphinxbase\util\cmd_ln.c ..\..\src\libsphinxbase\util\dtoa.c ..\..\src\libsphinxbase\util\err.c ..\..\src\libsphinxbase\util\f2c_lite.c ..\..\src\libsphinxbase\util\filename.c ..\..\src\libsphinxbase\util\genrand.c ..\..\src\libsphinxbase\util\glist.c ..\..\src\libsphinxbase\util\hash_table.c ..\..\src\libsphinxbase\util\heap.c ..\..\src\libsphinxbase\util\listelem_alloc.c ..\..\src\libsphinxbase\util\logmath.c ..\..\src\libsphinxbase\util\matrix.c ..\..\src\libsphinxbase\util\mmio.c ..\..\src\libsphinxbase\util\pio.c ..\..\src\libsphinxbase\util\priority_queue.c ..\..\src\libsphinxbase\util\profile.c ..\..\src\libsphinxbase\util\sbthread.c ..\..\src\libsphinxbase\util\slamch.c ..\..\src\libsphinxbase\util\slapack_lite.c ..\..\src\libsphinxbase\util\strfuncs.c
+     1>cl : Command line warning D9038: /ZI is not supported on this platform; enabling /Zi instead
+     1>cl : Command line warning D9007: '/Gm' requires '/Zi'; option ignored
+         ad_win32.c
+         agc.c
+         cmn.c
+         cmn_live.c
+         feat.c
+     1>..\..\src\libsphinxbase\feat\feat.c(370): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\..\src\libsphinxbase\feat\feat.c(404): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\..\src\libsphinxbase\feat\feat.c(900): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\src\libsphinxbase\feat\feat.c(903): warning C4018: '<' : signed/unsigned mismatch
+         lda.c
+         fe_interface.c
+     1>..\..\src\libsphinxbase\fe\fe_interface.c(416): warning C4267: '=' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\fe\fe_interface.c(456): warning C4267: '=' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\fe\fe_interface.c(471): warning C4267: '+=' : conversion from 'size_t' to 'int16', possible loss of data
+     1>..\..\src\libsphinxbase\fe\fe_interface.c(523): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\src\libsphinxbase\fe\fe_interface.c(530): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\src\libsphinxbase\fe\fe_interface.c(540): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\src\libsphinxbase\fe\fe_interface.c(546): warning C4244: '=' : conversion from '__int64' to 'int16', possible loss of data
+     1>..\..\src\libsphinxbase\fe\fe_interface.c(563): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\src\libsphinxbase\fe\fe_interface.c(571): warning C4244: '-=' : conversion from '__int64' to 'int', possible loss of data
+         fe_noise.c
+         fe_prespch_buf.c
+         fe_sigproc.c
+         fe_warp_affine.c
+         fe_warp.c
+         fe_warp_inverse_linear.c
+         fe_warp_piecewise_linear.c
+         fixlog.c
+         yin.c
+         fsg_model.c
+     1>..\..\src\libsphinxbase\lm\fsg_model.c(663): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>..\..\src\libsphinxbase\lm\fsg_model.c(866): warning C4244: 'function' : conversion from 'float32' to 'int', possible loss of data
+         jsgf.c
+         jsgf_parser.c
+         jsgf_scanner.c
+     1>_jsgf_scanner.l(84): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>jsgf_scanner.c(1257): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>jsgf_scanner.c(1292): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>jsgf_scanner.c(1301): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>jsgf_scanner.c(1327): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>jsgf_scanner.c(1333): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+     1>jsgf_scanner.c(1746): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>jsgf_scanner.c(1780): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         ngrams_raw.c
+     1>..\..\src\libsphinxbase\lm\ngrams_raw.c(56): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\src\libsphinxbase\lm\ngrams_raw.c(91): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>..\..\src\libsphinxbase\lm\ngrams_raw.c(102): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\libsphinxbase\lm\ngrams_raw.c(116): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         lm_trie.c
+     1>..\..\src\libsphinxbase\lm\lm_trie.c(213): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\src\libsphinxbase\lm\lm_trie.c(295): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\src\libsphinxbase\lm\lm_trie.c(300): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\src\libsphinxbase\lm\lm_trie.c(532): warning C4267: 'initializing' : conversion from 'size_t' to 'uint32', possible loss of data
+         lm_trie_quant.c
+     1>..\..\src\libsphinxbase\lm\lm_trie_quant.c(78): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\src\libsphinxbase\lm\lm_trie_quant.c(116): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>..\..\src\libsphinxbase\lm\lm_trie_quant.c(117): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+         ngram_model.c
+     1>..\..\src\libsphinxbase\lm\ngram_model.c(980): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+         ngram_model_set.c
+         ngram_model_trie.c
+     1>..\..\src\libsphinxbase\lm\ngram_model_trie.c(335): warning C4267: '+=' : conversion from 'size_t' to 'uint32', possible loss of data
+     1>..\..\src\libsphinxbase\lm\ngram_model_trie.c(396): warning C4267: '+=' : conversion from 'size_t' to 'int32', possible loss of data
+         bio.c
+     1>..\..\src\libsphinxbase\util\bio.c(354): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\src\libsphinxbase\util\bio.c(359): warning C4267: 'return' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\util\bio.c(377): warning C4267: 'function' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\util\bio.c(576): warning C4267: 'function' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\util\bio.c(588): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         bitarr.c
+         bitvec.c
+         blas_lite.c
+         case.c
+         ckd_alloc.c
+         cmd_ln.c
+     1>..\..\src\libsphinxbase\util\cmd_ln.c(118): warning C4267: '=' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\util\cmd_ln.c(123): warning C4267: '=' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\util\cmd_ln.c(125): warning C4267: '=' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\util\cmd_ln.c(152): warning C4090: 'function' : different 'const' qualifiers
+     1>..\..\src\libsphinxbase\util\cmd_ln.c(333): warning C4090: 'function' : different 'const' qualifiers
+         dtoa.c
+         err.c
+         f2c_lite.c
+         filename.c
+         genrand.c
+         glist.c
+         hash_table.c
+         Generating Code...
+         Compiling...
+         heap.c
+         listelem_alloc.c
+     1>..\..\src\libsphinxbase\util\listelem_alloc.c(148): warning C4267: '=' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\util\listelem_alloc.c(214): warning C4267: '=' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\util\listelem_alloc.c(223): warning C4267: '=' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\util\listelem_alloc.c(226): warning C4267: '=' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\util\listelem_alloc.c(242): warning C4267: '=' : conversion from 'size_t' to 'int32', possible loss of data
+         logmath.c
+     1>..\..\src\libsphinxbase\util\logmath.c(296): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+         matrix.c
+     1>..\..\src\libsphinxbase\util\matrix.c(71): warning C4244: '*=' : conversion from 'float64' to 'float32', possible loss of data
+         mmio.c
+         pio.c
+     1>..\..\src\libsphinxbase\util\pio.c(332): warning C4267: '+=' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\util\pio.c(335): warning C4267: '+=' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\src\libsphinxbase\util\pio.c(439): warning C4267: '+=' : conversion from 'size_t' to 'int32', possible loss of data
+         priority_queue.c
+         profile.c
+         sbthread.c
+         slamch.c
+         slapack_lite.c
+     1>..\..\src\libsphinxbase\util\slapack_lite.c(1041): warning C4244: '=' : conversion from 'doublereal' to 'real', possible loss of data
+     1>..\..\src\libsphinxbase\util\slapack_lite.c(1046): warning C4244: '=' : conversion from 'double' to 'real', possible loss of data
+     1>..\..\src\libsphinxbase\util\slapack_lite.c(1074): warning C4244: '=' : conversion from 'doublereal' to 'real', possible loss of data
+     1>..\..\src\libsphinxbase\util\slapack_lite.c(1079): warning C4244: '=' : conversion from 'double' to 'real', possible loss of data
+         strfuncs.c
+     1>..\..\src\libsphinxbase\util\strfuncs.c(110): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\..\src\libsphinxbase\util\strfuncs.c(193): warning C4244: 'return' : conversion from '__int64' to 'int32', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/Debug/x64/sphinxbase.dll" /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../../bin/Debug/x64/sphinxbase.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../../bin/Debug/x64/sphinxbase.lib" /MACHINE:X64 /SAFESEH:NO /DLL .\Debug\x64/ad_win32.obj
+         .\Debug\x64/agc.obj
+         .\Debug\x64/cmn.obj
+         .\Debug\x64/cmn_live.obj
+         .\Debug\x64/feat.obj
+         .\Debug\x64/lda.obj
+         .\Debug\x64/fe_interface.obj
+         .\Debug\x64/fe_noise.obj
+         .\Debug\x64/fe_prespch_buf.obj
+         .\Debug\x64/fe_sigproc.obj
+         .\Debug\x64/fe_warp_affine.obj
+         .\Debug\x64/fe_warp.obj
+         .\Debug\x64/fe_warp_inverse_linear.obj
+         .\Debug\x64/fe_warp_piecewise_linear.obj
+         .\Debug\x64/fixlog.obj
+         .\Debug\x64/yin.obj
+         .\Debug\x64/fsg_model.obj
+         .\Debug\x64/jsgf.obj
+         .\Debug\x64/jsgf_parser.obj
+         .\Debug\x64/jsgf_scanner.obj
+         .\Debug\x64/ngrams_raw.obj
+         .\Debug\x64/lm_trie.obj
+         .\Debug\x64/lm_trie_quant.obj
+         .\Debug\x64/ngram_model.obj
+         .\Debug\x64/ngram_model_set.obj
+         .\Debug\x64/ngram_model_trie.obj
+         .\Debug\x64/bio.obj
+         .\Debug\x64/bitarr.obj
+         .\Debug\x64/bitvec.obj
+         .\Debug\x64/blas_lite.obj
+         .\Debug\x64/case.obj
+         .\Debug\x64/ckd_alloc.obj
+         .\Debug\x64/cmd_ln.obj
+         .\Debug\x64/dtoa.obj
+         .\Debug\x64/err.obj
+         .\Debug\x64/f2c_lite.obj
+         .\Debug\x64/filename.obj
+         .\Debug\x64/genrand.obj
+         .\Debug\x64/glist.obj
+         .\Debug\x64/hash_table.obj
+         .\Debug\x64/heap.obj
+         .\Debug\x64/listelem_alloc.obj
+         .\Debug\x64/logmath.obj
+         .\Debug\x64/matrix.obj
+         .\Debug\x64/mmio.obj
+         .\Debug\x64/pio.obj
+         .\Debug\x64/priority_queue.obj
+         .\Debug\x64/profile.obj
+         .\Debug\x64/sbthread.obj
+         .\Debug\x64/slamch.obj
+         .\Debug\x64/slapack_lite.obj
+         .\Debug\x64/strfuncs.obj
+            Creating library ../../bin/Debug/x64/sphinxbase.lib and object ../../bin/Debug/x64/sphinxbase.exp
+         sphinxbase.vcxproj -> C:\sphinx\sphinxbase\\bin\Debug\x64\sphinxbase.dll
+     1>Done Building Project "C:\sphinx\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.19

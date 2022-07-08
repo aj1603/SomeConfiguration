@@ -1,0 +1,145 @@
+﻿Build started 13.01.2020 19:05:47.
+     1>Project "C:\sphinx\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../include/win32 /I../../include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oy- /D NDEBUG /D _USRDLL /D SPHINX_DLL /D SPHINXBASE_EXPORTS /D HAVE_CONFIG_H /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\Win32/" /Fd".\Release\Win32/vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\libsphinxad\ad_win32.c ..\..\src\libsphinxbase\feat\agc.c ..\..\src\libsphinxbase\feat\cmn.c ..\..\src\libsphinxbase\feat\cmn_live.c ..\..\src\libsphinxbase\feat\feat.c ..\..\src\libsphinxbase\feat\lda.c ..\..\src\libsphinxbase\fe\fe_interface.c ..\..\src\libsphinxbase\fe\fe_noise.c ..\..\src\libsphinxbase\fe\fe_prespch_buf.c ..\..\src\libsphinxbase\fe\fe_sigproc.c ..\..\src\libsphinxbase\fe\fe_warp_affine.c ..\..\src\libsphinxbase\fe\fe_warp.c ..\..\src\libsphinxbase\fe\fe_warp_inverse_linear.c ..\..\src\libsphinxbase\fe\fe_warp_piecewise_linear.c ..\..\src\libsphinxbase\fe\fixlog.c ..\..\src\libsphinxbase\fe\yin.c ..\..\src\libsphinxbase\lm\fsg_model.c ..\..\src\libsphinxbase\lm\jsgf.c ..\..\src\libsphinxbase\lm\jsgf_parser.c ..\..\src\libsphinxbase\lm\jsgf_scanner.c ..\..\src\libsphinxbase\lm\ngrams_raw.c ..\..\src\libsphinxbase\lm\lm_trie.c ..\..\src\libsphinxbase\lm\lm_trie_quant.c ..\..\src\libsphinxbase\lm\ngram_model.c ..\..\src\libsphinxbase\lm\ngram_model_set.c ..\..\src\libsphinxbase\lm\ngram_model_trie.c ..\..\src\libsphinxbase\util\bio.c ..\..\src\libsphinxbase\util\bitarr.c ..\..\src\libsphinxbase\util\bitvec.c ..\..\src\libsphinxbase\util\blas_lite.c ..\..\src\libsphinxbase\util\case.c ..\..\src\libsphinxbase\util\ckd_alloc.c ..\..\src\libsphinxbase\util\cmd_ln.c ..\..\src\libsphinxbase\util\dtoa.c ..\..\src\libsphinxbase\util\err.c ..\..\src\libsphinxbase\util\f2c_lite.c ..\..\src\libsphinxbase\util\filename.c ..\..\src\libsphinxbase\util\genrand.c ..\..\src\libsphinxbase\util\glist.c ..\..\src\libsphinxbase\util\hash_table.c ..\..\src\libsphinxbase\util\heap.c ..\..\src\libsphinxbase\util\listelem_alloc.c ..\..\src\libsphinxbase\util\logmath.c ..\..\src\libsphinxbase\util\matrix.c ..\..\src\libsphinxbase\util\mmio.c ..\..\src\libsphinxbase\util\pio.c ..\..\src\libsphinxbase\util\priority_queue.c ..\..\src\libsphinxbase\util\profile.c ..\..\src\libsphinxbase\util\sbthread.c ..\..\src\libsphinxbase\util\slamch.c ..\..\src\libsphinxbase\util\slapack_lite.c ..\..\src\libsphinxbase\util\strfuncs.c
+         ad_win32.c
+         agc.c
+         cmn.c
+         cmn_live.c
+         feat.c
+     1>..\..\src\libsphinxbase\feat\feat.c(820): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\src\libsphinxbase\feat\feat.c(900): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\src\libsphinxbase\feat\feat.c(903): warning C4018: '<' : signed/unsigned mismatch
+         lda.c
+         fe_interface.c
+         fe_noise.c
+         fe_prespch_buf.c
+         fe_sigproc.c
+         fe_warp_affine.c
+         fe_warp.c
+         fe_warp_inverse_linear.c
+         fe_warp_piecewise_linear.c
+         fixlog.c
+         yin.c
+         fsg_model.c
+     1>..\..\src\libsphinxbase\lm\fsg_model.c(663): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>..\..\src\libsphinxbase\lm\fsg_model.c(866): warning C4244: 'function' : conversion from 'float32' to 'int', possible loss of data
+         jsgf.c
+         jsgf_parser.c
+         jsgf_scanner.c
+     1>jsgf_scanner.c(927): warning C4018: '<' : signed/unsigned mismatch
+     1>_jsgf_scanner.l(84): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>jsgf_scanner.c(1301): warning C4018: '<' : signed/unsigned mismatch
+     1>jsgf_scanner.c(1829): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         Compiling...
+         ngrams_raw.c
+     1>..\..\src\libsphinxbase\lm\ngrams_raw.c(56): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\src\libsphinxbase\lm\ngrams_raw.c(91): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>..\..\src\libsphinxbase\lm\ngrams_raw.c(102): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\libsphinxbase\lm\ngrams_raw.c(116): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         lm_trie.c
+     1>..\..\src\libsphinxbase\lm\lm_trie.c(213): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\src\libsphinxbase\lm\lm_trie.c(295): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\src\libsphinxbase\lm\lm_trie.c(300): warning C4018: '<' : signed/unsigned mismatch
+         lm_trie_quant.c
+         ngram_model.c
+     1>..\..\src\libsphinxbase\lm\ngram_model.c(980): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+         ngram_model_set.c
+         ngram_model_trie.c
+         bio.c
+         bitarr.c
+         bitvec.c
+         blas_lite.c
+         case.c
+         ckd_alloc.c
+         cmd_ln.c
+     1>..\..\src\libsphinxbase\util\cmd_ln.c(152): warning C4090: 'function' : different 'const' qualifiers
+     1>..\..\src\libsphinxbase\util\cmd_ln.c(333): warning C4090: 'function' : different 'const' qualifiers
+         dtoa.c
+         err.c
+         f2c_lite.c
+         filename.c
+         genrand.c
+         glist.c
+         hash_table.c
+         Generating Code...
+         Compiling...
+         heap.c
+         listelem_alloc.c
+         logmath.c
+         matrix.c
+     1>..\..\src\libsphinxbase\util\matrix.c(71): warning C4244: '*=' : conversion from 'float64' to 'float32', possible loss of data
+         mmio.c
+         pio.c
+         priority_queue.c
+         profile.c
+         sbthread.c
+         slamch.c
+         slapack_lite.c
+     1>..\..\src\libsphinxbase\util\slapack_lite.c(1041): warning C4244: '=' : conversion from 'doublereal' to 'real', possible loss of data
+     1>..\..\src\libsphinxbase\util\slapack_lite.c(1046): warning C4244: '=' : conversion from 'double' to 'real', possible loss of data
+     1>..\..\src\libsphinxbase\util\slapack_lite.c(1074): warning C4244: '=' : conversion from 'doublereal' to 'real', possible loss of data
+     1>..\..\src\libsphinxbase\util\slapack_lite.c(1079): warning C4244: '=' : conversion from 'double' to 'real', possible loss of data
+         strfuncs.c
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/Release/Win32/sphinxbase.dll" /INCREMENTAL:NO /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"../../bin/Release/Win32/sphinxbase.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../../bin/Release/Win32/sphinxbase.lib" /MACHINE:X86 /SAFESEH /DLL .\Release\Win32/ad_win32.obj
+         .\Release\Win32/agc.obj
+         .\Release\Win32/cmn.obj
+         .\Release\Win32/cmn_live.obj
+         .\Release\Win32/feat.obj
+         .\Release\Win32/lda.obj
+         .\Release\Win32/fe_interface.obj
+         .\Release\Win32/fe_noise.obj
+         .\Release\Win32/fe_prespch_buf.obj
+         .\Release\Win32/fe_sigproc.obj
+         .\Release\Win32/fe_warp_affine.obj
+         .\Release\Win32/fe_warp.obj
+         .\Release\Win32/fe_warp_inverse_linear.obj
+         .\Release\Win32/fe_warp_piecewise_linear.obj
+         .\Release\Win32/fixlog.obj
+         .\Release\Win32/yin.obj
+         .\Release\Win32/fsg_model.obj
+         .\Release\Win32/jsgf.obj
+         .\Release\Win32/jsgf_parser.obj
+         .\Release\Win32/jsgf_scanner.obj
+         .\Release\Win32/ngrams_raw.obj
+         .\Release\Win32/lm_trie.obj
+         .\Release\Win32/lm_trie_quant.obj
+         .\Release\Win32/ngram_model.obj
+         .\Release\Win32/ngram_model_set.obj
+         .\Release\Win32/ngram_model_trie.obj
+         .\Release\Win32/bio.obj
+         .\Release\Win32/bitarr.obj
+         .\Release\Win32/bitvec.obj
+         .\Release\Win32/blas_lite.obj
+         .\Release\Win32/case.obj
+         .\Release\Win32/ckd_alloc.obj
+         .\Release\Win32/cmd_ln.obj
+         .\Release\Win32/dtoa.obj
+         .\Release\Win32/err.obj
+         .\Release\Win32/f2c_lite.obj
+         .\Release\Win32/filename.obj
+         .\Release\Win32/genrand.obj
+         .\Release\Win32/glist.obj
+         .\Release\Win32/hash_table.obj
+         .\Release\Win32/heap.obj
+         .\Release\Win32/listelem_alloc.obj
+         .\Release\Win32/logmath.obj
+         .\Release\Win32/matrix.obj
+         .\Release\Win32/mmio.obj
+         .\Release\Win32/pio.obj
+         .\Release\Win32/priority_queue.obj
+         .\Release\Win32/profile.obj
+         .\Release\Win32/sbthread.obj
+         .\Release\Win32/slamch.obj
+         .\Release\Win32/slapack_lite.obj
+         .\Release\Win32/strfuncs.obj
+            Creating library ../../bin/Release/Win32/sphinxbase.lib and object ../../bin/Release/Win32/sphinxbase.exp
+         sphinxbase.vcxproj -> C:\sphinx\sphinxbase\\bin\Release\Win32\sphinxbase.dll
+     1>Done Building Project "C:\sphinx\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:24.42

@@ -1,0 +1,59 @@
+﻿Build started 13.01.2020 19:19:29.
+     1>Project "C:\sphinx\sphinxtrain\win32\programs\bw\bw.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\sphinxbase\include /I..\..\..\include /Zi /nologo /W3 /WX- /O2 /Ob1 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D SPHINX_DLL /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\x64/" /Fd".\Release\x64/vc110.pdb" /Gd /TC /errorReport:prompt ..\..\..\src\programs\bw\accum.c ..\..\..\src\programs\bw\backward.c ..\..\..\src\programs\bw\baum_welch.c ..\..\..\src\programs\bw\forward.c ..\..\..\src\programs\bw\main.c ..\..\..\src\programs\bw\next_utt_states.c ..\..\..\src\programs\bw\train_cmd_ln.c ..\..\..\src\programs\bw\viterbi.c
+         accum.c
+     1>..\..\..\src\programs\bw\accum.c(129): warning C4244: '+=' : conversion from 'float64' to 'float32', possible loss of data
+     1>..\..\..\src\programs\bw\accum.c(234): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\bw\accum.c(776): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(285) : see declaration of 'unlink'
+     1>..\..\..\src\programs\bw\accum.c(781): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(285) : see declaration of 'unlink'
+     1>..\..\..\src\programs\bw\accum.c(787): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(285) : see declaration of 'unlink'
+     1>..\..\..\src\programs\bw\accum.c(807): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(285) : see declaration of 'unlink'
+     1>..\..\..\src\programs\bw\accum.c(1026): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+         backward.c
+     1>..\..\..\src\programs\bw\backward.c(611): warning C4244: '+=' : conversion from 'float64' to 'float32', possible loss of data
+     1>..\..\..\src\programs\bw\backward.c(833): warning C4244: '+=' : conversion from 'float64' to 'float32', possible loss of data
+     1>..\..\..\src\programs\bw\backward.c(1049): warning C4244: '+=' : conversion from 'float64' to 'float32', possible loss of data
+         baum_welch.c
+         forward.c
+         main.c
+     1>..\..\..\src\programs\bw\main.c(279): warning C4244: '=' : conversion from 'double' to 'mfcc_t', possible loss of data
+     1>..\..\..\src\programs\bw\main.c(284): warning C4244: '=' : conversion from 'double' to 'mfcc_t', possible loss of data
+     1>..\..\..\src\programs\bw\main.c(776): warning C4018: '>' : signed/unsigned mismatch
+     1>..\..\..\src\programs\bw\main.c(1030): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\bw\main.c(1039): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\bw\main.c(1069): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\bw\main.c(1088): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\bw\main.c(1102): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\bw\main.c(1684): warning C4018: '>' : signed/unsigned mismatch
+         next_utt_states.c
+     1>..\..\..\src\programs\bw\next_utt_states.c(76): warning C4013: 'str2words' undefined; assuming extern returning int
+         train_cmd_ln.c
+         viterbi.c
+     1>..\..\..\src\programs\bw\viterbi.c(654): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\bw\viterbi.c(763): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\..\bin\Release\x64/bw.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\..\sphinxbase\bin\Release\x64 sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\..\..\..\bin\Release\x64/bw.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\bin\Release\x64\bw.lib" /MACHINE:X64 .\Release\x64/accum.obj
+         .\Release\x64/backward.obj
+         .\Release\x64/baum_welch.obj
+         .\Release\x64/forward.obj
+         .\Release\x64/main.obj
+         .\Release\x64/next_utt_states.obj
+         .\Release\x64/train_cmd_ln.obj
+         .\Release\x64/viterbi.obj
+         C:\sphinx\sphinxtrain\lib\Release\x64\libclust.lib
+         C:\sphinx\sphinxtrain\lib\Release\x64\libcommon.lib
+         C:\sphinx\sphinxtrain\lib\Release\x64\libio.lib
+         C:\sphinx\sphinxtrain\lib\Release\x64\libmllr.lib
+         C:\sphinx\sphinxtrain\lib\Release\x64\libmodinv.lib
+         bw.vcxproj -> C:\sphinx\sphinxtrain\win32\programs\bw\.\..\..\..\bin\Release\x64\bw.exe
+     1>Done Building Project "C:\sphinx\sphinxtrain\win32\programs\bw\bw.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.58

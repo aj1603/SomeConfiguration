@@ -1,0 +1,16 @@
+﻿Build started 13.01.2020 19:18:47.
+     1>Project "C:\sphinx\sphinxtrain\win32\libs\libmllr\libmllr.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\sphinxbase\include /I..\..\..\include /Zi /nologo /W3 /WX- /O2 /Ob1 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D SPHINX_DLL /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\x64/" /Fd".\Release\x64/vc110.pdb" /Gd /TC /errorReport:prompt ..\..\..\src\libs\libmllr\mllr.c ..\..\..\src\libs\libmllr\mllr_io.c
+         mllr.c
+         mllr_io.c
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:".\..\..\..\lib\Release\x64\libmllr.lib" sphinxbase.lib /LIBPATH:..\..\..\..\sphinxbase\bin\Release\x64\ /NOLOGO /MACHINE:X64 .\Release\x64/mllr.obj
+         .\Release\x64/mllr_io.obj
+         libmllr.vcxproj -> C:\sphinx\sphinxtrain\win32\libs\libmllr\.\..\..\..\lib\Release\x64\libmllr.lib
+     1>Done Building Project "C:\sphinx\sphinxtrain\win32\libs\libmllr\libmllr.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.95

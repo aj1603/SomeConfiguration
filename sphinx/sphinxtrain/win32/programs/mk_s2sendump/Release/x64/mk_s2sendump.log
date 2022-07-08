@@ -1,0 +1,46 @@
+﻿Build started 13.01.2020 19:22:12.
+     1>Project "C:\sphinx\sphinxtrain\win32\programs\mk_s2sendump\mk_s2sendump.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\sphinxbase\include /I..\..\..\include /Zi /nologo /W3 /WX- /O2 /Ob1 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D SPHINX_DLL /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\x64/" /Fd".\Release\x64/vc110.pdb" /Gd /TC /errorReport:prompt ..\..\..\src\programs\mk_s2sendump\mk_s2sendump.c ..\..\..\src\programs\mk_s2sendump\parse_cmd_ln.c ..\..\..\src\programs\mk_s2sendump\senone.c
+         mk_s2sendump.c
+     1>..\..\..\src\programs\mk_s2sendump\mk_s2sendump.c(105): warning C4267: '=' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\..\src\programs\mk_s2sendump\mk_s2sendump.c(121): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\mk_s2sendump.c(142): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\mk_s2sendump.c(152): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\mk_s2sendump.c(157): warning C4018: '>' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\mk_s2sendump.c(213): warning C4267: '=' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\..\src\programs\mk_s2sendump\mk_s2sendump.c(219): warning C4267: 'function' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\..\src\programs\mk_s2sendump\mk_s2sendump.c(222): warning C4267: 'function' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\..\src\programs\mk_s2sendump\mk_s2sendump.c(225): warning C4267: 'function' : conversion from 'size_t' to 'int32', possible loss of data
+     1>..\..\..\src\programs\mk_s2sendump\mk_s2sendump.c(240): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\mk_s2sendump.c(247): warning C4018: '<' : signed/unsigned mismatch
+         parse_cmd_ln.c
+         senone.c
+     1>..\..\..\src\programs\mk_s2sendump\senone.c(122): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\senone.c(134): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\senone.c(164): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\senone.c(171): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\senone.c(177): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\senone.c(186): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\senone.c(190): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\senone.c(260): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\senone.c(265): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\senone.c(293): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\senone.c(298): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\programs\mk_s2sendump\senone.c(307): warning C4244: 'function' : conversion from 'float64' to 'float32', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\..\bin\Release\x64/mk_s2sendump.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\..\sphinxbase\bin\Release\x64 sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\..\..\..\bin\Release\x64/mk_s2sendump.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\bin\Release\x64\mk_s2sendump.lib" /MACHINE:X64 .\Release\x64/mk_s2sendump.obj
+         .\Release\x64/parse_cmd_ln.obj
+         .\Release\x64/senone.obj
+         C:\sphinx\sphinxtrain\lib\Release\x64\libclust.lib
+         C:\sphinx\sphinxtrain\lib\Release\x64\libcommon.lib
+         C:\sphinx\sphinxtrain\lib\Release\x64\libio.lib
+         C:\sphinx\sphinxtrain\lib\Release\x64\libmllr.lib
+         C:\sphinx\sphinxtrain\lib\Release\x64\libmodinv.lib
+         mk_s2sendump.vcxproj -> C:\sphinx\sphinxtrain\win32\programs\mk_s2sendump\.\..\..\..\bin\Release\x64\mk_s2sendump.exe
+     1>Done Building Project "C:\sphinx\sphinxtrain\win32\programs\mk_s2sendump\mk_s2sendump.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.50

@@ -1,0 +1,9 @@
+﻿Build started 13.01.2020 19:22:21.
+     1>Project "C:\sphinx\sphinxtrain\win32\programs\mk_s2sendump\mk_s2sendump.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         mk_s2sendump.vcxproj -> C:\sphinx\sphinxtrain\win32\programs\mk_s2sendump\.\..\..\..\bin\Debug\Win32\mk_s2sendump.exe
+     1>Done Building Project "C:\sphinx\sphinxtrain\win32\programs\mk_s2sendump\mk_s2sendump.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.27

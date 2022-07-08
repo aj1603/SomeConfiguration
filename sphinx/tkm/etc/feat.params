@@ -1,0 +1,17 @@
+-alpha 0.97
+-dither yes
+-doublebw no
+-nfilt __CFG_NUM_FILT__
+-ncep __CFG_VECTOR_LENGTH__
+-lowerf __CFG_LO_FILT__
+-upperf __CFG_HI_FILT__
+-samprate __CFG_WAVFILE_SRATE__
+-nfft 512
+-wlen 0.0256
+-transform __CFG_TRANSFORM__
+-feat __CFG_FEATURE__
+-agc __CFG_AGC__
+-cmn __CFG_CMN__
+-varnorm __CFG_VARNORM__
+-remove_noise yes
+-lifter __CFG_LIFTER__

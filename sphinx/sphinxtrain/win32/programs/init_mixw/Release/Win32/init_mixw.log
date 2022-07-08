@@ -1,0 +1,21 @@
+﻿Build started 13.01.2020 19:20:33.
+     1>Project "C:\sphinx\sphinxtrain\win32\programs\init_mixw\init_mixw.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\sphinxbase\include /I..\..\..\include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D SPHINX_DLL /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\Win32/" /Fd".\Release\Win32/vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\src\programs\init_mixw\main.c ..\..\..\src\programs\init_mixw\parse_cmd_ln.c
+         main.c
+         parse_cmd_ln.c
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\..\bin\Release\Win32/init_mixw.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\..\sphinxbase\bin\Release\Win32 sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\..\..\..\bin\Release\Win32/init_mixw.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\bin\Release\Win32\init_mixw.lib" /MACHINE:X86 /SAFESEH .\Release\Win32/main.obj
+         .\Release\Win32/parse_cmd_ln.obj
+         C:\sphinx\sphinxtrain\lib\Release\Win32\libclust.lib
+         C:\sphinx\sphinxtrain\lib\Release\Win32\libcommon.lib
+         C:\sphinx\sphinxtrain\lib\Release\Win32\libio.lib
+         C:\sphinx\sphinxtrain\lib\Release\Win32\libmllr.lib
+         C:\sphinx\sphinxtrain\lib\Release\Win32\libmodinv.lib
+         init_mixw.vcxproj -> C:\sphinx\sphinxtrain\win32\programs\init_mixw\.\..\..\..\bin\Release\Win32\init_mixw.exe
+     1>Done Building Project "C:\sphinx\sphinxtrain\win32\programs\init_mixw\init_mixw.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.80
