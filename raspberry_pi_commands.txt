@@ -93,11 +93,16 @@ curl --header "Content-Type: application/json" \
 
 > testing /control/?args
 
-```bash
+```bash command for pins in device (Pinli enjamlar ucin commanda)
 curl --header "Content-Type: application/json" \
   --request POST \
   --data '{"command":"test_local_json","pins":[{"command":"switch_mirror","action":"1"},{"command":"switch_AI","action":"activate"}]}' \
   http://127.0.0.1:5000/esp/JsonToArg/
+```
+
+```
+bash  serveri bilmek ucin
+whois aydym.com
 ```
 
 
@@ -147,3 +152,10 @@ stdout_logfile=/var/log/smart_home/app.out.log
         ProxyPassReverse / http://127.0.0.1:8000/
 </VirtualHost>
 ```
+
+
+
+
+```
+bash
+curl --header "Content-Type: application/json" --request POST --data '{"command":"current_measurer","pins":[{"command":"current_cont","action":"0"}]}' http://192.168.1.252/esp/JsonToArg/
