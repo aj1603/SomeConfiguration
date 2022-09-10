@@ -1,0 +1,12 @@
+sudo service dhcpcd status - shu cod bilen serwerin yagday gorulyar.
+sudo service dhcpcd start    - shu code bilen dhcpcd serveri active edilyar.
+sudo nano /etc/dhcpcd.conf   - shu code bilen static ip edilyar.
+
+`````
+interface eth0
+static ip_address=192.168.0.4/24
+static routers=192.168.0.1
+static domain_name_servers=192.168.0.1        -ip shular yaly bolmaly.
+`````
+
+
