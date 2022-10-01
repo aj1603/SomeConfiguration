@@ -1,4 +1,3 @@
-
 sudo service dhcpcd status - shu cod bilen serwerin yagday gorulyar.
 sudo service dhcpcd start    - shu code bilen dhcpcd serveri active edilyar.
 sudo nano /etc/dhcpcd.conf   - shu code bilen static ip edilyar.
@@ -18,5 +17,4 @@ exit  cykmak ucin
 
 Time settings for raspberry pi configuration without internet
 sudo date -s 'DATE'
-sudo date -s '2021-01-04 13:04:00'  ///put current time
-sudo date -s '13:04:00'
+sudo date -s '2021-01-04 13:04:00'sudo date -s '13:04:00'
